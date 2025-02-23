@@ -1,0 +1,18 @@
+[submodule "services/public-user-service"]
+	path = services/public-user-service
+	url = https://github.com/GHAZI-ALANZI/public-user-service.git
+[submodule "services/user_city_management_service"]
+	path = services/user_city_management_service
+	url = https://github.com/GHAZI-ALANZI/user_city_management_service.git
+[submodule "frontend/web/puplic-user-dashboard-with-auth-web-frontend"]
+	path = frontend/web/puplic-user-dashboard-with-auth-web-frontend
+	url = https://github.com/GHAZI-ALANZI/puplic-user-dashboard-with-auth-web-frontend.git
+[submodule "frontend/web/login-city-mangement-dashboard-with-auth-web-frontend"]
+	path = frontend/web/login-city-mangement-dashboard-with-auth-web-frontend
+	url = https://github.com/GHAZI-ALANZI/login-city-mangement-dashboard-with-auth-web-frontend.git
+[submodule "frontend/web/city-mangement-dashboard-with-auth-web-frontend"]
+	path = frontend/web/city-mangement-dashboard-with-auth-web-frontend
+	url = https://github.com/GHAZI-ALANZI/city-mangement-dashboard-with-auth-web-frontend.git
+[submodule "frontend/web/public-user-health-web-frontend"]
+	path = frontend/web/public-user-health-web-frontend
+	url = https://github.com/GHAZI-ALANZI/public-user-health-web-frontend.git
