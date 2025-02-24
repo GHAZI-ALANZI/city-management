@@ -43,71 +43,78 @@ This project is built with modern and cutting-edge technologies to ensure high p
 ## 📌 System Architecture
 The project follows a microservices-based distributed architecture, where each service is responsible for a specific domain within the city.
 
-
 city-management/
+
 │── services/           # All backend microservices
 
-│   ├── population-service/
+     ── population-service/
+     
+     ── real-estate-service/
+     
+     ── facilities-service/
+     
+     ── healthcare-service/
+     
+     ── user-management-service/
+     
+     ── public-user-service/
+     
+      ── reporting-service/
+      
+ ── frontend/           # All frontend applications
+ 
+     ── web/
+     
+         ── admin-dashboard/  # Angular-based admin dashboard
+         
+         ── citizen-portal/   # Next.js-based citizen portal
+         
+ ── infra/             # Infrastructure components
+ 
+     ── docker/
+     
+     ── kubernetes/
+     
+     ── kafka/
 
-│   ├── real-estate-service/
+     ── database/
 
-│   ├── facilities-service/
+ ── shared/            # Shared utilities and services
+ 
+     ── auth/          # Authentication service
+     
+     ── logging/       # Logging and monitoring
+     
+     ── config/        # Global configuration
+     
+ ── ci-cd/             # Continuous Integration & Deployment
+ 
+     ── pipelines/
+     
+     ── scripts/
+     
+ ── docs/              # Documentation
+ 
+     ── architecture/
 
-│   ├── healthcare-service/
+     ── api/
+     
+     ── use-cases/
+     
+ ── tests/             # Automated tests
+ 
+     ── unit/
+    
+     ── integration/
+    
+     ── e2e/
 
-│   ├── user-management-service/
-
-│   ├── public-user-service/
-
-│   ├── reporting-service/
 
 
-│── frontend/           # All frontend applications
 
-│   ├── web/
 
-│   │   ├── admin-dashboard/  # Angular-based admin dashboard
 
-│   │   ├── citizen-portal/   # Next.js-based citizen portal
-│── infra/             # Infrastructure components
 
-│   ├── docker/
-
-│   ├── kubernetes/
-
-│   ├── kafka/
-
-│   ├── database/
-
-│── shared/            # Shared utilities and services
-
-│   ├── auth/          # Authentication service
-
-│   ├── logging/       # Logging and monitoring
-
-│   ├── config/        # Global configuration
-
-│── ci-cd/             # Continuous Integration & Deployment
-
-│   ├── pipelines/
-
-│   ├── scripts/
-
-│── docs/              # Documentation
-
-│   ├── architecture/
-
-│   ├── api/
-
-│   ├── use-cases/
-
-│── tests/             # Automated tests
-
-│   ├── unit/
-
-│   ├── integration/
-
-│   ├── e2e/
 
 
 
