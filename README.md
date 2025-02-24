@@ -18,6 +18,26 @@ The City Management Microservices System is a scalable and modular platform desi
 
 The system collects, processes, and analyzes real-time city data, enabling authorities to make informed, data-driven decisions that improve urban efficiency, sustainability, and citizen well-being.
 
+
+<img width="960" alt="Image" src="https://github.com/user-attachments/assets/48b19a33-7271-4366-aa70-bc4cffc1fd4f" />
+
+
+<img width="950" alt="Image" src="https://github.com/user-attachments/assets/be781f6a-7c0c-463a-a80d-11f97a742dd6" />
+
+
+<img width="960" alt="Image" src="https://github.com/user-attachments/assets/39d4e754-b824-44bd-9205-47f93df9e76e" />
+
+
+<img width="958" alt="Image" src="https://github.com/user-attachments/assets/c530e0f4-5075-4835-abd2-0b795fcb982c" />
+
+
+<img width="950" alt="Image" src="https://github.com/user-attachments/assets/98930552-3dd3-4ffc-8ef3-f4e5ec46ef38" />
+
+
+<img width="951" alt="Image" src="https://github.com/user-attachments/assets/6cd9597e-a843-4afc-afe4-aafc9ae840bb" />
+
+
+
 ## 🛠️ Technologies Used
 This project is built with modern and cutting-edge technologies to ensure high performance, security, and scalability.
 
