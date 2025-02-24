@@ -47,7 +47,6 @@ city-management/
 
 │── services/           # All backend microservices
 
-     ── population-service/
      
      ── real-estate-service/
      
@@ -59,15 +58,15 @@ city-management/
      
      ── public-user-service/
      
-      ── reporting-service/
+     ── reporting-service/
       
  ── frontend/           # All frontend applications
  
      ── web/
      
-         ── admin-dashboard/  # Angular-based admin dashboard
+         ── city-mangement-dashboard-with-auth-web-frontend/  # Angular 19-based admin dashboard
          
-         ── citizen-portal/   # Next.js-based citizen portal
+         ── puplic-user-dashboard-with-auth-web-frontend/   # React.js with Typescript
          
  ── infra/             # Infrastructure components
  
@@ -108,12 +107,6 @@ city-management/
      ── integration/
     
      ── e2e/
-
-
-
-
-
-
 
 
 
