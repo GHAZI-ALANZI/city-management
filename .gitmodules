@@ -16,3 +16,6 @@
 [submodule "frontend/web/public-user-health-web-frontend"]
 	path = frontend/web/public-user-health-web-frontend
 	url = https://github.com/GHAZI-ALANZI/public-user-health-web-frontend.git
+[submodule "services/healthcare-services/login-register-healthcare-fastapi-service"]
+	path = services/healthcare-services/login-register-healthcare-fastapi-service
+	url = https://github.com/GHAZI-ALANZI/login-register-healthcare-fastapi-service.git
