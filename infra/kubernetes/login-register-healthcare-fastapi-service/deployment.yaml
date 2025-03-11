@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: healthcare-fastapi
+spec:
+  replicas: 2  # Running two instances for scalability
+  selector:
+    matchLabels:
+      app: healthcare-fastapi
+  template:
+    metadata:
+      labels:
+        app: healthcare-fastapi
+    spec:
+      containers:
+        - name: healthcare-fastapi
+          image: alfagha1988/healthcare-fastapi-service:latest  # Replace with your Docker Hub or private registry
+          ports:
+            - containerPort: 8000
+          env:
+            - name: DATABASE_URL
+              value: "mysql+pymysql://user:password@mysql-service:3306/healthcare_db"
